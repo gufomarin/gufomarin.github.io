@@ -5,7 +5,7 @@ draft: false
 tags: ["static", "hugo"]
 ---
 
-**Hugo** is a great tool for generating static websites.
+**Hugo** is a great minimalistic tool for generating static websites.
 It took me one day to get a hang of it and be able to
 generate and publish my own website.
 Also the fact that there are a lot of themes at your fingertips
