@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cv on Gabriel Marin</title>
+    <link>https://gbrlmarn.github.io/tags/cv/</link>
+    <description>Recent content in cv on Gabriel Marin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 May 2023 18:49:36 +0300</lastBuildDate><atom:link href="https://gbrlmarn.github.io/tags/cv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://gbrlmarn.github.io/about/</link>
+      <pubDate>Fri, 05 May 2023 18:49:36 +0300</pubDate>
+      
+      <guid>https://gbrlmarn.github.io/about/</guid>
+      <description>I&amp;rsquo;m a software engineer with a background in networking and programming. Passionate about Open-source software, programming languages and operating systems. Eager to excel in my career, I&amp;rsquo;m seeking a position as a systems engineer, and here is my personal cv. My mission is to contribute to the development of future software infrastructure.</description>
+    </item>
+    
+  </channel>
+</rss>
