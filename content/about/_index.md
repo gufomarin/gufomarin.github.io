@@ -5,12 +5,8 @@ draft: false
 tags: ["about", "cv"]
 ---
 
-I'm a software engineer with a background in 
-networking and programming.
-Passionate about Open-source software, 
-programming languages and operating systems.
-Eager to excel in my career, 
-I'm seeking a position as a **systems engineer**,
-and here is my [personal cv](GMarin_CV.pdf). 
-My mission is to contribute to the development 
-of future software infrastructure.
+I'm a software engineer with a background in networking and programming.
+Passionate about open source software, command line applications, 
+programming languages and operating systems.\
+My mission is to contribute to the development of future software infrastructure.\
+[Curriculum vitae](GMarin_CV.pdf) 
