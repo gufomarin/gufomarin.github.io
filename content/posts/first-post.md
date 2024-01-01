@@ -1,5 +1,5 @@
 ---
-title: "First Post"
+title: "First post"
 date: 2023-05-05T22:57:55+03:00
 draft: false 
 tags: ["static", "hugo"]

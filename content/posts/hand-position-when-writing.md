@@ -1,5 +1,5 @@
 ---
-title: "Hand Position When Writing"
+title: "Hand position when writing"
 date: 2023-05-06T23:29:51+03:00
 draft: false 
 ---
