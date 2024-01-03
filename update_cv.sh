@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rsync -r --progress ../cv/GMarin_CV.pdf ./content/about/
+rsync -r --progress ../cv/marincv.pdf ./content/about/
 hugo
