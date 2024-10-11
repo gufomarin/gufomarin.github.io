@@ -1,4 +1,4 @@
-baseURL = "https://gbrlmarn.github.io"
+baseURL = "https://gblmrn.github.io"
 languageCode = "en-us"
 title = "Gabriel Marin"
 theme = ["github.com/nodejh/hugo-theme-mini"]

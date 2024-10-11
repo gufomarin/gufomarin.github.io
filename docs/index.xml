@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Marin Gabriel</title>
-    <link>https://marinmgabriel.github.io/</link>
-    <description>Recent content on Marin Gabriel</description>
+    <title>Gabriel Marin</title>
+    <link>https://gblmrn.github.io/</link>
+    <description>Recent content on Gabriel Marin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 May 2023 23:29:51 +0300</lastBuildDate><atom:link href="https://marinmgabriel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 May 2023 23:29:51 +0300</lastBuildDate><atom:link href="https://gblmrn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hand position when writing</title>
-      <link>https://marinmgabriel.github.io/posts/hand-position-when-writing/</link>
+      <link>https://gblmrn.github.io/posts/hand-position-when-writing/</link>
       <pubDate>Sat, 06 May 2023 23:29:51 +0300</pubDate>
       
-      <guid>https://marinmgabriel.github.io/posts/hand-position-when-writing/</guid>
+      <guid>https://gblmrn.github.io/posts/hand-position-when-writing/</guid>
       <description>After a lot of typing my wrist started to hurt. So I done some research and found out that the best way to have you hand when typing is without resting your palms on you keyboard, basically keep your elbows up like a piano player&amp;hellip;because in the long run can cause fatigue and also other wrist problems. After testing this method I am quite happy with the result and I will try to implement it more and more 😃.</description>
     </item>
     
     <item>
       <title>First post</title>
-      <link>https://marinmgabriel.github.io/posts/first-post/</link>
+      <link>https://gblmrn.github.io/posts/first-post/</link>
       <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate>
       
-      <guid>https://marinmgabriel.github.io/posts/first-post/</guid>
+      <guid>https://gblmrn.github.io/posts/first-post/</guid>
       <description>Hugo is a great minimalistic tool for generating static websites. It took me one day to get a hang of it and be able to generate and publish my own website. Also the fact that there are a lot of themes at your fingertips is great, because you can also switch your aspect of your site without much effort.</description>
     </item>
     
