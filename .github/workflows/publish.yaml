@@ -9,6 +9,9 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out
+        uses: actions/checkout@v1
+
       - name: Install Deps
         run: | 
           sudo apt install hugo pipx
