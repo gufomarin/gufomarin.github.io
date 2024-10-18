@@ -8,13 +8,13 @@ cv:
     - network: LinkedIn
       username: maringabriel
     - network: GitHub
-      username: gbrlmarn
+      username: gblmrn
   sections:
     skills:
       - label: Programming Languages
-        details: C, C++, Clojure, Go, Java, Rust, Bash, Python, Scheme, Common Lisp, HTML, CSS, LaTeX, Erlang, Elixir, C#, SQL, NoSQL, Datomic
+        details: C, C++, Clojure, Go, Java, Rust, Bash, Python, Lisp, Lua, HTML, CSS, LaTeX, Erlang, Elixir, C#, SQL, NoSQL, Datomic
       - label: Tools
-        details: Linux, Git, Emacs, Coreutils, Docker, ZeroMQ, Boost, Make, CMake, Vim, Jenkins, Yocto, BitBake, RabbitMQ, Django, Hugo, React
+        details: Linux, Git, Coreutils, Vim, Docker, ZeroMQ, Boost, Make, CMake, FlatBuffers, Emacs, Jenkins, Yocto, BitBake, RabbitMQ, Django, Hugo, React
     experience:
       - company: Luxoft
         position: Software Engineer

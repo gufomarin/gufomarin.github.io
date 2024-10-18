@@ -19,3 +19,9 @@ jobs:
 
       - name: Deploy Site
         run: ./deploy.sh
+
+      - name: Publish generated content to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: docs 
+

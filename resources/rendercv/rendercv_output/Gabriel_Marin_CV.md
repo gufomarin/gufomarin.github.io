@@ -2,13 +2,13 @@
 
 - Email: [marin.gabriel@protonmail.com](mailto:marin.gabriel@protonmail.com)
 - LinkedIn: [maringabriel](https://linkedin.com/in/maringabriel)
-- GitHub: [gbrlmarn](https://github.com/gbrlmarn)
+- GitHub: [gblmrn](https://github.com/gblmrn)
 
 
 # Skills
 
-- Programming Languages: C, C++, Clojure, Go, Java, Rust, Bash, Python, Scheme, Common Lisp, HTML, CSS, LaTeX, Erlang, Elixir, C#, SQL, NoSQL, Datomic
-- Tools: Linux, Git, Emacs, Coreutils, Docker, ZeroMQ, Boost, Make, CMake, Vim, Jenkins, Yocto, BitBake, RabbitMQ, Django, Hugo, React
+- Programming Languages: C, C++, Clojure, Go, Java, Rust, Bash, Python, Lisp, Lua, HTML, CSS, LaTeX, Erlang, Elixir, C#, SQL, NoSQL, Datomic
+- Tools: Linux, Git, Coreutils, Vim, Docker, ZeroMQ, Boost, Make, CMake, FlatBuffers, Emacs, Jenkins, Yocto, BitBake, RabbitMQ, Django, Hugo, React
 # Experience
 
 ## Luxoft, Software Engineer
