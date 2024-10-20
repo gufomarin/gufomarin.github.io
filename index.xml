@@ -6,7 +6,18 @@
     <description>Recent content on Gabriel Marin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 May 2023 23:29:51 +0300</lastBuildDate><atom:link href="https://gblmrn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Oct 2024 11:00:36 +0300</lastBuildDate><atom:link href="https://gblmrn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Read Html inside terminal</title>
+      <link>https://gblmrn.github.io/posts/read-html-inside-terminal/</link>
+      <pubDate>Sun, 20 Oct 2024 11:00:36 +0300</pubDate>
+      
+      <guid>https://gblmrn.github.io/posts/read-html-inside-terminal/</guid>
+      <description>This can be done by using curl and pandoc. The command looks like this:
+curl &amp;lt;url&amp;gt; | pandoc -f html -t plain | less After that you can go up and down with j and k keys. With this command you can read directly in the terminal. If you want to store the information in a text file, you could use this command:
+curl &amp;lt;url&amp;gt; | pandoc -f html -t plain &amp;gt; file.</description>
+    </item>
+    
     <item>
       <title>Hand position when writing</title>
       <link>https://gblmrn.github.io/posts/hand-position-when-writing/</link>
