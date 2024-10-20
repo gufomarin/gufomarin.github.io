@@ -1,26 +1,23 @@
 name: Publish Site
 
-on:
-  push:
-    branches:
-      - master
+on: [push]
+permissions:
+  contents: write
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out
-        uses: actions/checkout@v1
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Install Deps
         run: | 
           sudo apt install hugo pipx
           pip install rendercv
+          ./build.sh
 
-      - name: Deploy Site
-        run: ./deploy.sh
-
-      - name: Publish generated content to GitHub Pages
+      - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs 
