@@ -1,6 +1,6 @@
 cv:
   name: Gabriel Marin
-  # location: Your Location
+  location: Romania
   email: gbrlmarn@gmail.com 
   # phone: tel:+90-541-999-99-99
   website: https://gbrlmarn.github.io
@@ -19,54 +19,54 @@ cv:
       - company: Luxoft
         position: Software Engineer
         location: Remote
-        start_date: 2022
+        start_date: 2022-08
         end_date:
         highlights:
-          - Provided better testing tooling to at least 2 teams by developing command line application using C++ and ZeroMQ library for sending/receiving messages over TCP sockets.
+          - Provided better testing tooling to at least 2 teams by developing command line application using C++ and ZeroMQ library for sending and receiving messages over TCP sockets.
           - Increase code coverage by minimum 75% by creating unit tests using Boost library.
           - Aligned codebase in 5 projects according to coding guidelines by refactoring multiple repositories.
       - company: Continental
         position: Software Engineer
         location: Sibiu, Romania
-        start_date: 2021
-        end_date: 2022
+        start_date: 2021-10
+        end_date: 2022-08
         highlights:
           - Enhanced C code production by working on XML generator using Java and AUTOSAR library.
       - company: Ministry of Internal Affairs
         position: System Engineer
         location: Râmnicu Vâlcea, Romania
-        start_date: 2019
-        end_date: 2021
+        start_date: 2019-12
+        end_date: 2021-10
         highlights:
           - Reduce computer setup by 1+ hour by creating automation scripts.
       - company: Ministry of Internal Affairs
         position: Middleware Engineer
         location: Bucharest, Romania
-        start_date: 2018
-        end_date: 2019
+        start_date: 2018-07
+        end_date: 2019-12
         highlights:
           - Give access to at least 80 users in Oracle SQL database by changing permissions according to requirements.
     open source:
       - name: Curl
-        date: '[github.com/curl/curl](https://github.com/curl/curl)'
+        date: '[curl](https://github.com/curl/curl)'
         highlights:
           - Improved code formatting with 17 new findings by adding check for spaces around ternary operators using Perl.
       - name: Ttyper
-        date: '[github.com/maxniederman/ttyper](https://github.com/maxniederman/ttype)'
+        date: '[ttyper](https://github.com/maxniederman/ttyper)'
         highlights:
-          - Supplied application customization by solving 1 issue and implementing a functionality that permits to change the shape of the corners using Rust.
+          - Supplied application customization by solving 1 issue and implementing a functionality that permits to change the corners shape using Rust.
     education:
       - institution: Military Technical Academy
         area: Telecommunications Engineering
         degree: MA
-        start_date: 2018
-        end_date: 2020
+        start_date: 2018-09
+        end_date: 2020-07
         highlights:
       - institution: Military Technical Academy
         area: Telecommunications Engineering
         degree: BA
-        start_date: 2014
-        end_date: 2018
+        start_date: 2014-09
+        end_date: 2018-07
         highlights:
     other:
       - label: Languages
