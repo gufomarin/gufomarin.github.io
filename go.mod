@@ -1,4 +1,4 @@
-module github.com/gbrlmarn/gbrlmarn.github.io
+module github.com/gbmn/gbmn.github.io
 
 go 1.15
 

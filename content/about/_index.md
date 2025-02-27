@@ -8,6 +8,6 @@ tags: ["about"]
 Hello, I'm a software engineer with a background in networking and programming,
 passionate about open source software and programming languages.
 ## Contact
-- Email: [gbrlmarn@gmail.com](mailto:gbrlmarn@gmail.com)
-- Linkedin: [linkedin.com/in/gbrlmarn](https://linkedin.com/in/gbrlmarn)
-- Github: [github.com/gbrlmarn](https://github.com/gbrlmarn)
+- Email: [gbmn@proton.me](mailto:gbmn@gmail.com)
+- Linkedin: [linkedin.com/in/gbmn](https://linkedin.com/in/gbmn)
+- Github: [github.com/gbmn](https://github.com/gbmn)
