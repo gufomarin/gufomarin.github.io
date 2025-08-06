@@ -1,0 +1,7 @@
+baseURL: "https://gbrlmarn.github.io"
+languageCode: "en-us"
+title: "Gabriel Marin"
+theme: "github.com/nodejh/hugo-theme-mini"
+license: "MIT"
+publishDir: "docs"
+enableEmoji: true
