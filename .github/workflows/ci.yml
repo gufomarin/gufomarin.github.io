@@ -11,6 +11,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Update theme
+        run: git submodule update --init --recursive
+
       - name: Build
         run: |
           sudo apt install hugo
