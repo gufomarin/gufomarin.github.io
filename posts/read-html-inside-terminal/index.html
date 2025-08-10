@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Read Html inside terminal | Gabriel Marin</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="This can be done by using curl and pandoc. The command looks like this:
+curl &lt;url&gt; | pandoc -f html -t plain | less After that you can go up and down with j and k keys. With this command you can read directly in the terminal. If you want to store the information in a text file, you could use this command:
+curl &lt;url&gt; | pandoc -f html -t plain &gt; file.">
+<meta name="generator" content="Hugo 0.123.7">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
+	
+	<a href="/posts">Archive</a>
+	<a href="/tags">Tags</a>
+	<a href="/about">About</a>
+
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">Read Html inside terminal</h1>
+
+    <div class="tip">
+        <time datetime="2024-10-20 11:00:36 &#43;0300 &#43;0300">Oct 20, 2024</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          104 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1 minute read
+        </span>
+    </div>
+
+    
+    
+
+
+    <div class="content">
+      <p>This can be done by using <code>curl</code> and <code>pandoc</code>.
+The command looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl &lt;url&gt; | pandoc -f html -t plain | less
+</span></span></code></pre></div><p>After that you can go up and down with <code>j</code> and <code>k</code> keys.
+With this command you can read directly in the terminal.
+If you want to store the information in a text file,
+you could use this command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl &lt;url&gt; | pandoc -f html -t plain &gt; file.txt 
+</span></span></code></pre></div><p>Where <code>file.txt</code> is the name of the file where the information
+is stored.</p>
+<p>To get a complete list of output formats supported by <code>pandoc</code>,
+you can use the command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pandoc --list-output-formats
+</span></span></code></pre></div>
+    </div>
+
+    
+    
+    
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2025 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+  </body>
+</html>
