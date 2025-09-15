@@ -16,7 +16,7 @@ jobs:
 
       - name: Build
         run: |
-          sudo apt install hugo
+          sudo snap install hugo
           hugo
 
       - name: Deploy

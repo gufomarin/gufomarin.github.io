@@ -1,7 +1,28 @@
-baseURL = "https://gbrlmarn.github.io"
+baseURL = "https://maringabi.github.io"
 languageCode = "en-us"
 title = "Gabriel Marin"
-theme = "mini"
+theme = "beautifulhugo"
 license = "MIT"
 publishDir = "docs"
 enableEmoji = true
+
+[Params]
+    rss = true
+    favicon = "./static/images/favicon.ico"
+
+[Params.author]
+    name = "Gabriel Marin"
+    email = "maringabrielmihai@gmail.com"
+    website = "https://maringabi.github.io"
+    github = "https://github.com/marngabi"
+    linkedin = "https://linkedin.com/in/maringabi"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
