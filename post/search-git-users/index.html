@@ -283,9 +283,9 @@ Let&rsquo;s say we want to change our git username to another one. Instead of ch
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <h1 id="introduction">Introduction</h1>
+        <h2 id="introduction">Introduction</h2>
 <p>Let&rsquo;s say we want to change our git username to another one. Instead of checking manually if the username is already taken, we can automate this process by writing a script named <code>fgitusr</code>. The content of the script looks like this:</p>
-<h1 id="code">Code</h1>
+<h2 id="code">Code</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Check regex rules</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> !<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">=</span>~ ^<span style="color:#f92672">[</span>0-9a-zA-Z<span style="color:#f92672">]{</span>1<span style="color:#f92672">}[</span>0-9a-zA-Z<span style="color:#ae81ff">\-</span><span style="color:#f92672">]</span>*<span style="color:#f92672">[</span>0-9a-zA-Z<span style="color:#f92672">]{</span>1<span style="color:#f92672">}</span>$<span style="color:#f92672">)</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
 </span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74"> DOESN&#39;T MATCH REGEX&#34;</span>
@@ -300,7 +300,7 @@ Let&rsquo;s say we want to change our git username to another one. Instead of ch
 </span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;USER </span>$1<span style="color:#e6db74"> DOESN&#39;T EXIST&#34;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
 </span></span></code></pre></div><p>The main idea is that we use <code>curl</code> to look if the url <code>https://github.com/&lt;username&gt;</code> is a valid link. If it is, then the user exist.</p>
-<h1 id="output">Output</h1>
+<h2 id="output">Output</h2>
 <p>When user is found:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ fgitusr maringabi
 </span></span><span style="display:flex;"><span>USER maringabi EXISTS
@@ -310,7 +310,7 @@ Let&rsquo;s say we want to change our git username to another one. Instead of ch
 </span></span></code></pre></div><p>When user doesn&rsquo;t respect regex rules:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ fgitusr marin_gabi
 </span></span><span style="display:flex;"><span>marin_gabi DOESN<span style="color:#960050;background-color:#1e0010">&#39;</span>T MATCH REGEX
-</span></span></code></pre></div><h1 id="conclusion">Conclusion</h1>
+</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
 <p>The advantage of searching usernames with this method, is that you can automate the process. For example you can use a for loop over multiple usernames to check if every username is available:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ <span style="color:#66d9ef">for</span> u in <span style="color:#e6db74">&#34;abc&#34;</span> <span style="color:#e6db74">&#34;bcd&#34;</span> <span style="color:#e6db74">&#34;cde&#34;</span>; fgitusr $u
 </span></span><span style="display:flex;"><span>USER abc EXISTS
