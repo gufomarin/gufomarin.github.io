@@ -186,6 +186,59 @@
         <div class="posts-list">
           
             <article class="post-preview">
+    <a href="https://maringabi.github.io/posts/search-git-users/">
+        <h2 class="post-title">Search Git Users</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on September 16, 2025
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Gabriel Marin
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h1 id="introduction">Introduction</h1>
+<p>Let&rsquo;s say we want to change our git username to another one. Instead of checking manually if the username is already taken, we can automate this process by writing a script named <code>fgitusr</code>. The content of the script looks like this:</p>
+<h1 id="code">Code</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Check regex rules</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> !<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">=</span>~ ^<span style="color:#f92672">[</span>0-9a-zA-Z<span style="color:#f92672">]{</span>1<span style="color:#f92672">}[</span>0-9a-zA-Z<span style="color:#ae81ff">\-</span><span style="color:#f92672">]</span>*<span style="color:#f92672">[</span>0-9a-zA-Z<span style="color:#f92672">]{</span>1<span style="color:#f92672">}</span>$<span style="color:#f92672">)</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74"> DOESN&#39;T MATCH REGEX&#34;</span>
+</span></span><span style="display:flex;"><span>    exit <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check if usersname exists</span>
+</span></span><span style="display:flex;"><span>curl --output /dev/null --silent  --head --fail <span style="color:#e6db74">&#34;https://github.com/</span>$1<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $? -eq <span style="color:#ae81ff">0</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;USER </span>$1<span style="color:#e6db74"> EXISTS&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;USER </span>$1<span style="color:#e6db74"> DOESN&#39;T EXIST&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span></code></pre></div><p>The main idea is that we use <code>curl</code> to look if the url <code>https://github.com/&lt;username&gt;</code> is a valid link. If it is, then the user exist.</p>
+        <a href="https://maringabi.github.io/posts/search-git-users/" class="post-read-more">[Read More]</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
     <a href="https://maringabi.github.io/posts/read-html-inside-terminal/">
         <h2 class="post-title">Read Html inside terminal</h2>
         
@@ -392,7 +445,7 @@ without much effort.</p>
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2024
+            2025
           
 
           

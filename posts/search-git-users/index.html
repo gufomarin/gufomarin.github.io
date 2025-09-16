@@ -12,16 +12,25 @@
  
 
 
-      <title>Hand position when writing - </title>
+      <title>Search Git Users - </title>
 
-  <meta name="description" content="After a lot of typing my wrist started to hurt.
-So I done some research and found out that the best way
-to have you hand when typing is without resting your palms
-on you keyboard, basically keep your elbows up like a
-piano player&hellip;because in the long run can cause
-fatigue and also other wrist problems. After testing this
-method I am quite happy with the result and I will try to
-implement it more and more &#x1f603;.">
+  <meta name="description" content="Introduction
+Let&rsquo;s say we want to change our git username to another one. Instead of checking manually if the username is already taken, we can automate this process by writing a script named fgitusr. The content of the script looks like this:
+Code
+# Check regex rules
+if [[ !(&#34;$1&#34; =~ ^[0-9a-zA-Z]{1}[0-9a-zA-Z\-]*[0-9a-zA-Z]{1}$) ]]; then
+    echo &#34;$1 DOESN&#39;T MATCH REGEX&#34;
+    exit 1
+fi
+
+# Check if usersname exists
+curl --output /dev/null --silent  --head --fail &#34;https://github.com/$1&#34;
+if [ $? -eq 0 ]; then
+    echo &#34;USER $1 EXISTS&#34;;
+else
+    echo &#34;USER $1 DOESN&#39;T EXIST&#34;;
+fi
+The main idea is that we use curl to look if the url https://github.com/&lt;username&gt; is a valid link. If it is, then the user exist.">
   <meta name="author" content="Gabriel Marin"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -57,8 +66,8 @@ implement it more and more &#x1f603;.">
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https:\/\/maringabi.github.io\/posts\/hand-position-when-writing\/",
-          "name": "Hand position when writing"
+          "@id": "https:\/\/maringabi.github.io\/posts\/search-git-users\/",
+          "name": "Search git users"
         }
     }]
 }
@@ -69,15 +78,15 @@ implement it more and more &#x1f603;.">
   "author": {
     "name" : "Gabriel Marin"
   },
-  "headline": "Hand position when writing",
-  "description" : "After a lot of typing my wrist started to hurt. So I done some research and found out that the best way to have you hand when typing is without resting your palms on you keyboard, basically keep your elbows up like a piano player\u0026hellip;because in the long run can cause fatigue and also other wrist problems. After testing this method I am quite happy with the result and I will try to implement it more and more \u0026#x1f603;.\n",
+  "headline": "Search Git Users",
+  "description" : "Introduction Let\u0026rsquo;s say we want to change our git username to another one. Instead of checking manually if the username is already taken, we can automate this process by writing a script named fgitusr. The content of the script looks like this:\nCode # Check regex rules if [[ !(\u0026#34;$1\u0026#34; =~ ^[0-9a-zA-Z]{1}[0-9a-zA-Z\\-]*[0-9a-zA-Z]{1}$) ]]; then echo \u0026#34;$1 DOESN\u0026#39;T MATCH REGEX\u0026#34; exit 1 fi # Check if usersname exists curl --output \/dev\/null --silent --head --fail \u0026#34;https:\/\/github.com\/$1\u0026#34; if [ $? -eq 0 ]; then echo \u0026#34;USER $1 EXISTS\u0026#34;; else echo \u0026#34;USER $1 DOESN\u0026#39;T EXIST\u0026#34;; fi The main idea is that we use curl to look if the url https:\/\/github.com\/\u0026lt;username\u0026gt; is a valid link. If it is, then the user exist.\n",
   "inLanguage" : "en",
-  "wordCount":  79 ,
-  "datePublished" : "2023-05-06T23:29:51\u002b03:00",
-  "dateModified" : "2023-05-06T23:29:51\u002b03:00",
+  "wordCount":  205 ,
+  "datePublished" : "2025-09-16T21:42:46\u002b02:00",
+  "dateModified" : "2025-09-16T21:42:46\u002b02:00",
   "image" : "https:\/\/maringabi.github.io\/",
   "keywords" : [ "" ],
-  "mainEntityOfPage" : "https:\/\/maringabi.github.io\/posts\/hand-position-when-writing\/",
+  "mainEntityOfPage" : "https:\/\/maringabi.github.io\/posts\/search-git-users\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "https:\/\/maringabi.github.io\/",
@@ -92,24 +101,31 @@ implement it more and more &#x1f603;.">
 </script>
 
 
-<meta property="og:title" content="Hand position when writing" />
-<meta property="og:description" content="After a lot of typing my wrist started to hurt.
-So I done some research and found out that the best way
-to have you hand when typing is without resting your palms
-on you keyboard, basically keep your elbows up like a
-piano player&hellip;because in the long run can cause
-fatigue and also other wrist problems. After testing this
-method I am quite happy with the result and I will try to
-implement it more and more &#x1f603;.">
-<meta property="og:url" content="https://maringabi.github.io/posts/hand-position-when-writing/" />
+<meta property="og:title" content="Search Git Users" />
+<meta property="og:description" content="Introduction
+Let&rsquo;s say we want to change our git username to another one. Instead of checking manually if the username is already taken, we can automate this process by writing a script named fgitusr. The content of the script looks like this:
+Code
+# Check regex rules
+if [[ !(&#34;$1&#34; =~ ^[0-9a-zA-Z]{1}[0-9a-zA-Z\-]*[0-9a-zA-Z]{1}$) ]]; then
+    echo &#34;$1 DOESN&#39;T MATCH REGEX&#34;
+    exit 1
+fi
+
+# Check if usersname exists
+curl --output /dev/null --silent  --head --fail &#34;https://github.com/$1&#34;
+if [ $? -eq 0 ]; then
+    echo &#34;USER $1 EXISTS&#34;;
+else
+    echo &#34;USER $1 DOESN&#39;T EXIST&#34;;
+fi
+The main idea is that we use curl to look if the url https://github.com/&lt;username&gt; is a valid link. If it is, then the user exist.">
+<meta property="og:url" content="https://maringabi.github.io/posts/search-git-users/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Gabriel Marin" />
 
-  <meta name="twitter:title" content="Hand position when writing" />
-  <meta name="twitter:description" content="After a lot of typing my wrist started to hurt.
-So I done some research and found out that the best way
-to have you hand when typing is without resting your palms
-on you keyboard, basically keep your …">
+  <meta name="twitter:title" content="Search Git Users" />
+  <meta name="twitter:description" content="Introduction
+Let&rsquo;s say we want to change our git username to another one. Instead of checking manually if the username is already taken, we can automate this process by writing a script named …">
   <meta name="twitter:card" content="summary_large_image" />
   <link href='https://maringabi.github.io/static/images/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta name="generator" content="Hugo 0.150.0">
@@ -231,7 +247,7 @@ on you keyboard, basically keep your …">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="posts-heading">
               
-                <h1>Hand position when writing</h1>
+                <h1>Search Git Users</h1>
               
               
                 <hr class="small">
@@ -252,15 +268,40 @@ on you keyboard, basically keep your …">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>After a lot of typing my wrist started to hurt.
-So I done some research and found out that the best way
-to have you hand when typing is without resting your palms
-on you keyboard, basically keep your elbows up like a
-piano player&hellip;because in the long run can cause
-fatigue and also other wrist problems. After testing this
-method I am quite happy with the result and I will try to
-implement it more and more &#x1f603;.</p>
-
+        <h1 id="introduction">Introduction</h1>
+<p>Let&rsquo;s say we want to change our git username to another one. Instead of checking manually if the username is already taken, we can automate this process by writing a script named <code>fgitusr</code>. The content of the script looks like this:</p>
+<h1 id="code">Code</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Check regex rules</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> !<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">=</span>~ ^<span style="color:#f92672">[</span>0-9a-zA-Z<span style="color:#f92672">]{</span>1<span style="color:#f92672">}[</span>0-9a-zA-Z<span style="color:#ae81ff">\-</span><span style="color:#f92672">]</span>*<span style="color:#f92672">[</span>0-9a-zA-Z<span style="color:#f92672">]{</span>1<span style="color:#f92672">}</span>$<span style="color:#f92672">)</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74"> DOESN&#39;T MATCH REGEX&#34;</span>
+</span></span><span style="display:flex;"><span>    exit <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check if usersname exists</span>
+</span></span><span style="display:flex;"><span>curl --output /dev/null --silent  --head --fail <span style="color:#e6db74">&#34;https://github.com/</span>$1<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $? -eq <span style="color:#ae81ff">0</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;USER </span>$1<span style="color:#e6db74"> EXISTS&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;USER </span>$1<span style="color:#e6db74"> DOESN&#39;T EXIST&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span></code></pre></div><p>The main idea is that we use <code>curl</code> to look if the url <code>https://github.com/&lt;username&gt;</code> is a valid link. If it is, then the user exist.</p>
+<h1 id="output">Output</h1>
+<p>When user is found:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ fgitusr maringabi
+</span></span><span style="display:flex;"><span>USER maringabi EXISTS
+</span></span></code></pre></div><p>When user is not found:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ fgitusr marinngabi
+</span></span><span style="display:flex;"><span>USER marinngabi DOESN<span style="color:#960050;background-color:#1e0010">&#39;</span>T EXIST
+</span></span></code></pre></div><p>When user doesn&rsquo;t respect regex rules:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ fgitusr marin_gabi
+</span></span><span style="display:flex;"><span>marin_gabi DOESN<span style="color:#960050;background-color:#1e0010">&#39;</span>T MATCH REGEX
+</span></span></code></pre></div><h1 id="conclusion">Conclusion</h1>
+<p>The advantage of searching usernames with this method, is that you can automate the process. For example you can use a for loop over multiple usernames to check if every username is available:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ <span style="color:#66d9ef">for</span> u in <span style="color:#e6db74">&#34;abc&#34;</span> <span style="color:#e6db74">&#34;bcd&#34;</span> <span style="color:#e6db74">&#34;cde&#34;</span>; fgitusr $u
+</span></span><span style="display:flex;"><span>USER abc EXISTS
+</span></span><span style="display:flex;"><span>USER bcd EXISTS
+</span></span><span style="display:flex;"><span>USER cde EXISTS
+</span></span></code></pre></div>
 
         
 
@@ -273,13 +314,9 @@ implement it more and more &#x1f603;.</p>
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://maringabi.github.io/posts/first-post/" data-toggle="tooltip" data-placement="top" title="First post">&larr; Previous Post</a>
+              <a href="https://maringabi.github.io/posts/read-html-inside-terminal/" data-toggle="tooltip" data-placement="top" title="Read Html inside terminal">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://maringabi.github.io/posts/read-html-inside-terminal/" data-toggle="tooltip" data-placement="top" title="Read Html inside terminal">Next Post &rarr;</a>
-            </li>
           
         </ul>
       
