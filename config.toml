@@ -9,6 +9,8 @@ enableEmoji = true
 [Params]
     rss = true
     favicon = "./static/images/favicon.ico"
+    mainSections = ["post","posts"]
+
 
 [Params.author]
     name = "Gabriel Marin"
