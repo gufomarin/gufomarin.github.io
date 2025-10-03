@@ -302,14 +302,14 @@ Let&rsquo;s say we want to change our git username to another one. Instead of ch
 </span></span></code></pre></div><p>The main idea is that we use <code>curl</code> to look if the url <code>https://github.com/&lt;username&gt;</code> is a valid link. If it is, then the user exist.</p>
 <h2 id="output">Output</h2>
 <p>When user is found:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ fgitusr maringabi
-</span></span><span style="display:flex;"><span>USER maringabi EXISTS
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ fgitusr foo
+</span></span><span style="display:flex;"><span>USER foo EXISTS
 </span></span></code></pre></div><p>When user is not found:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ fgitusr marinngabi
-</span></span><span style="display:flex;"><span>USER marinngabi DOESN<span style="color:#960050;background-color:#1e0010">&#39;</span>T EXIST
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ fgitusr fobarfoo
+</span></span><span style="display:flex;"><span>USER fobarfoo DOESN<span style="color:#960050;background-color:#1e0010">&#39;</span>T EXIST
 </span></span></code></pre></div><p>When user doesn&rsquo;t respect regex rules:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ fgitusr marin_gabi
-</span></span><span style="display:flex;"><span>marin_gabi DOESN<span style="color:#960050;background-color:#1e0010">&#39;</span>T MATCH REGEX
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ fgitusr foo_bar
+</span></span><span style="display:flex;"><span>foo_bar DOESN<span style="color:#960050;background-color:#1e0010">&#39;</span>T MATCH REGEX
 </span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
 <p>The advantage of searching usernames with this method, is that you can automate the process. For example you can use a for loop over multiple usernames to check if every username is available:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ <span style="color:#66d9ef">for</span> u in <span style="color:#e6db74">&#34;abc&#34;</span> <span style="color:#e6db74">&#34;bcd&#34;</span> <span style="color:#e6db74">&#34;cde&#34;</span>; fgitusr $u
