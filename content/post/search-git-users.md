@@ -27,20 +27,20 @@ The main idea is that we use `curl` to look if the url `https://github.com/<user
 ## Output
 When user is found:
 ```bash
-$ fgitusr maringabi
-USER maringabi EXISTS
+$ fgitusr foo
+USER foo EXISTS
 ```
 
 When user is not found:
 ```bash
-$ fgitusr marinngabi
-USER marinngabi DOESN'T EXIST
+$ fgitusr fobarfoo
+USER fobarfoo DOESN'T EXIST
 ```
 
 When user doesn't respect regex rules:
 ```bash
-$ fgitusr marin_gabi
-marin_gabi DOESN'T MATCH REGEX
+$ fgitusr foo_bar
+foo_bar DOESN'T MATCH REGEX
 ```
 
 ## Conclusion
