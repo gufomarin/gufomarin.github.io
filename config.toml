@@ -1,4 +1,4 @@
-baseURL = "https://maringabi.github.io"
+baseURL = "https://whilemarin.github.io"
 languageCode = "en-us"
 title = "Gabriel Marin"
 theme = "beautifulhugo"
@@ -11,13 +11,12 @@ enableEmoji = true
     favicon = "./static/images/favicon.ico"
     mainSections = ["post","posts"]
 
-
 [Params.author]
     name = "Gabriel Marin"
-    email = "maringabrielmihai@gmail.com"
-    website = "https://maringabi.github.io"
-    github = "https://github.com/marngabi"
-    linkedin = "https://linkedin.com/in/maringabi"
+    email = "whilemarin@gmail.com"
+    website = "https://whilemarin.github.io"
+    github = "https://github.com/whilemarin"
+    linkedin = "https://linkedin.com/in/maringabriel"
 
 [[menu.main]]
     name = "Blog"
