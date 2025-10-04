@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gabriel Marin</title>
-    <link>https://whilemarin.github.io/</link>
+    <link>https://marinmg.github.io/</link>
     <description>Recent content on Gabriel Marin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>whilemarin@gmail.com (Gabriel Marin)</managingEditor>
-    <webMaster>whilemarin@gmail.com (Gabriel Marin)</webMaster>
+    <managingEditor>mihaigmarin@gmail.com (Gabriel Marin)</managingEditor>
+    <webMaster>mihaigmarin@gmail.com (Gabriel Marin)</webMaster>
     <lastBuildDate>Tue, 16 Sep 2025 21:42:46 +0200</lastBuildDate>
-    <atom:link href="https://whilemarin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marinmg.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search Git Users</title>
-      <link>https://whilemarin.github.io/post/search-git-users/</link>
-      <pubDate>Tue, 16 Sep 2025 21:42:46 +0200</pubDate><author>whilemarin@gmail.com (Gabriel Marin)</author>
-      <guid>https://whilemarin.github.io/post/search-git-users/</guid>
+      <link>https://marinmg.github.io/post/search-git-users/</link>
+      <pubDate>Tue, 16 Sep 2025 21:42:46 +0200</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
+      <guid>https://marinmg.github.io/post/search-git-users/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s say we want to change our git username to another one. Instead of checking manually if the username is already taken, we can automate this process by writing a script named &lt;code&gt;fgitusr&lt;/code&gt;. The content of the script looks like this:&lt;/p&gt;&#xA;&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Check regex rules&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; !&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;~ ^&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;0-9a-zA-Z&lt;span style=&#34;color:#f92672&#34;&gt;]{&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;}[&lt;/span&gt;0-9a-zA-Z&lt;span style=&#34;color:#ae81ff&#34;&gt;\-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;*&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;0-9a-zA-Z&lt;span style=&#34;color:#f92672&#34;&gt;]{&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;$&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt; DOESN&amp;#39;T MATCH REGEX&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    exit &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Check if usersname exists&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl --output /dev/null --silent  --head --fail &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://github.com/&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt; $? -eq &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;USER &lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt; EXISTS&amp;#34;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;USER &lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt; DOESN&amp;#39;T EXIST&amp;#34;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The main idea is that we use &lt;code&gt;curl&lt;/code&gt; to look if the url &lt;code&gt;https://github.com/&amp;lt;username&amp;gt;&lt;/code&gt; is a valid link. If it is, then the user exist.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Read Html inside terminal</title>
-      <link>https://whilemarin.github.io/post/read-html-inside-terminal/</link>
-      <pubDate>Sun, 20 Oct 2024 11:00:36 +0300</pubDate><author>whilemarin@gmail.com (Gabriel Marin)</author>
-      <guid>https://whilemarin.github.io/post/read-html-inside-terminal/</guid>
+      <link>https://marinmg.github.io/post/read-html-inside-terminal/</link>
+      <pubDate>Sun, 20 Oct 2024 11:00:36 +0300</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
+      <guid>https://marinmg.github.io/post/read-html-inside-terminal/</guid>
       <description>&lt;p&gt;This can be done by using &lt;code&gt;curl&lt;/code&gt; and &lt;code&gt;pandoc&lt;/code&gt;.&#xA;The command looks like this:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl &amp;lt;url&amp;gt; | pandoc -f html -t plain | less&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that you can go up and down with &lt;code&gt;j&lt;/code&gt; and &lt;code&gt;k&lt;/code&gt; keys.&#xA;With this command you can read directly in the terminal.&#xA;If you want to store the information in a text file,&#xA;you could use this command:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl &amp;lt;url&amp;gt; | pandoc -f html -t plain &amp;gt; file.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Where &lt;code&gt;file.txt&lt;/code&gt; is the name of the file where the information&#xA;is stored.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hand position when writing</title>
-      <link>https://whilemarin.github.io/post/hand-position-when-writing/</link>
-      <pubDate>Sat, 06 May 2023 23:29:51 +0300</pubDate><author>whilemarin@gmail.com (Gabriel Marin)</author>
-      <guid>https://whilemarin.github.io/post/hand-position-when-writing/</guid>
+      <link>https://marinmg.github.io/post/hand-position-when-writing/</link>
+      <pubDate>Sat, 06 May 2023 23:29:51 +0300</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
+      <guid>https://marinmg.github.io/post/hand-position-when-writing/</guid>
       <description>&lt;p&gt;After a lot of typing my wrist started to hurt.&#xA;So I done some research and found out that the best way&#xA;to have you hand when typing is without resting your palms&#xA;on you keyboard, basically keep your elbows up like a&#xA;piano player&amp;hellip;because in the long run can cause&#xA;fatigue and also other wrist problems. After testing this&#xA;method I am quite happy with the result and I will try to&#xA;implement it more and more &amp;#x1f603;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>First post</title>
-      <link>https://whilemarin.github.io/post/first-post/</link>
-      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate><author>whilemarin@gmail.com (Gabriel Marin)</author>
-      <guid>https://whilemarin.github.io/post/first-post/</guid>
+      <link>https://marinmg.github.io/post/first-post/</link>
+      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
+      <guid>https://marinmg.github.io/post/first-post/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Hugo&lt;/strong&gt; is a great minimalistic tool for generating static websites.&#xA;It took me one day to get a hang of it and be able to&#xA;generate and publish my own website.&#xA;Also the fact that there are a lot of themes at your fingertips&#xA;is great, because you can also switch your aspect of your site&#xA;without much effort.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://whilemarin.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>whilemarin@gmail.com (Gabriel Marin)</author>
-      <guid>https://whilemarin.github.io/about/</guid>
+      <link>https://marinmg.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
+      <guid>https://marinmg.github.io/about/</guid>
       <description>&lt;p&gt;Hello, I&amp;rsquo;m a software engineer with a background in networking and programming,&#xA;passionate about open source software and programming languages.&lt;/p&gt;</description>
     </item>
   </channel>
