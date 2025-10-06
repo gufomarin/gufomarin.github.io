@@ -1,4 +1,4 @@
-baseURL = "https://mihaigmarin.github.io"
+baseURL = "https://gbrlmarn.github.io"
 languageCode = "en-us"
 title = "Gabriel Marin"
 theme = "beautifulhugo"
@@ -13,10 +13,10 @@ enableEmoji = true
 
 [Params.author]
     name = "Gabriel Marin"
-    email = "mihaigmarin@gmail.com"
-    website = "https://mihaigmarin.github.io"
-    github = "https://github.com/mihaigmarin"
-    linkedin = "https://linkedin.com/in/mihaigmarin"
+    email = "gbrlmarn@gmail.com"
+    website = "https://gbrlmarn.github.io"
+    github = "https://github.com/gbrlmarn"
+    linkedin = "https://linkedin.com/in/gbrlmarn"
 
 [[menu.main]]
     name = "Blog"
