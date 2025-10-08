@@ -8,8 +8,29 @@
     <language>en-us</language>
     <managingEditor>gufomarin@gmail.com (Gabriel Marin)</managingEditor>
     <webMaster>gufomarin@gmail.com (Gabriel Marin)</webMaster>
-    <lastBuildDate>Fri, 05 May 2023 22:57:55 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 16 Sep 2025 21:42:46 +0200</lastBuildDate>
     <atom:link href="https://gufomarin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash</title>
+      <link>https://gufomarin.github.io/tags/bash/</link>
+      <pubDate>Tue, 16 Sep 2025 21:42:46 +0200</pubDate><author>gufomarin@gmail.com (Gabriel Marin)</author>
+      <guid>https://gufomarin.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regex</title>
+      <link>https://gufomarin.github.io/tags/regex/</link>
+      <pubDate>Tue, 16 Sep 2025 21:42:46 +0200</pubDate><author>gufomarin@gmail.com (Gabriel Marin)</author>
+      <guid>https://gufomarin.github.io/tags/regex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>https://gufomarin.github.io/tags/html/</link>
+      <pubDate>Sun, 20 Oct 2024 11:00:36 +0300</pubDate><author>gufomarin@gmail.com (Gabriel Marin)</author>
+      <guid>https://gufomarin.github.io/tags/html/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hugo</title>
       <link>https://gufomarin.github.io/tags/hugo/</link>

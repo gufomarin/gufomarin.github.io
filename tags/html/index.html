@@ -12,7 +12,7 @@
  
 
 
-      <title>Posts - </title>
+      <title>Html - </title>
 
   <meta name="author" content="Gabriel Marin"/><script type="application/ld+json">
 {
@@ -35,12 +35,12 @@
 }
 </script>
 
-<meta property="og:title" content="Posts" />
-<meta property="og:url" content="https://gufomarin.github.io/post/" />
+<meta property="og:title" content="Html" />
+<meta property="og:url" content="https://gufomarin.github.io/tags/html/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Gabriel Marin" />
 
-  <meta name="twitter:title" content="Posts" />
+  <meta name="twitter:title" content="Html" />
   <meta name="twitter:card" content="summary_large_image" />
   <link href='https://gufomarin.github.io/static/images/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta name="generator" content="Hugo 0.151.0">
@@ -160,29 +160,14 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="post-heading">
+            <div class="tags-heading">
               
-                <h1>Posts</h1>
-              
-              
+                <h1>Html</h1>
               
               
-                <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on September 16, 2025
-  
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Gabriel Marin
-    
-  
-  
-</span>
-
-
+                <hr class="small">
+              
+              
               
             </div>
           </div>
@@ -199,69 +184,6 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         
         <div class="posts-list">
-          
-            <article class="post-preview">
-    <a href="https://gufomarin.github.io/post/search-git-users/">
-        <h2 class="post-title">Search Git Users</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on September 16, 2025
-  
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Gabriel Marin
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <h2 id="introduction">Introduction</h2>
-<p>Let&rsquo;s say we want to change our git username to another one. Instead of checking manually if the username is already taken, we can automate this process by writing a script named <code>fgitusr</code>. The content of the script looks like this:</p>
-<h2 id="code">Code</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Check regex rules</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> !<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">=</span>~ ^<span style="color:#f92672">[</span>0-9a-zA-Z<span style="color:#f92672">]{</span>1<span style="color:#f92672">}[</span>0-9a-zA-Z<span style="color:#ae81ff">\-</span><span style="color:#f92672">]</span>*<span style="color:#f92672">[</span>0-9a-zA-Z<span style="color:#f92672">]{</span>1<span style="color:#f92672">}</span>$<span style="color:#f92672">)</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
-</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74"> DOESN&#39;T MATCH REGEX&#34;</span>
-</span></span><span style="display:flex;"><span>    exit <span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check if usersname exists</span>
-</span></span><span style="display:flex;"><span>curl --output /dev/null --silent  --head --fail <span style="color:#e6db74">&#34;https://github.com/</span>$1<span style="color:#e6db74">&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $? -eq <span style="color:#ae81ff">0</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
-</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;USER </span>$1<span style="color:#e6db74"> EXISTS&#34;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
-</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;USER </span>$1<span style="color:#e6db74"> DOESN&#39;T EXIST&#34;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
-</span></span></code></pre></div><p>The main idea is that we use <code>curl</code> to look if the url <code>https://github.com/&lt;username&gt;</code> is a valid link. If it is, then the user exist.</p>
-        <a href="https://gufomarin.github.io/post/search-git-users/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-       
-       <a href="https://gufomarin.github.io/tags/bash/">bash</a>&nbsp;
-        
-       
-       <a href="https://gufomarin.github.io/tags/regex/">regex</a>&nbsp;
-         
-    </div>
-    
-
-</article>
           
             <article class="post-preview">
     <a href="https://gufomarin.github.io/post/read-html-inside-terminal/">
@@ -319,102 +241,6 @@ is stored.</p>
 
 </article>
           
-            <article class="post-preview">
-    <a href="https://gufomarin.github.io/post/hand-position-when-writing/">
-        <h2 class="post-title">Hand position when writing</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on May 6, 2023
-  
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Gabriel Marin
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>After a lot of typing my wrist started to hurt.
-So I done some research and found out that the best way
-to have you hand when typing is without resting your palms
-on you keyboard, basically keep your elbows up like a
-piano player&hellip;because in the long run can cause
-fatigue and also other wrist problems. After testing this
-method I am quite happy with the result and I will try to
-implement it more and more &#x1f603;.</p>
-
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://gufomarin.github.io/post/first-post/">
-        <h2 class="post-title">First post</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on May 5, 2023
-  
-  
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Gabriel Marin
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p><strong>Hugo</strong> is a great minimalistic tool for generating static websites.
-It took me one day to get a hang of it and be able to
-generate and publish my own website.
-Also the fact that there are a lot of themes at your fingertips
-is great, because you can also switch your aspect of your site
-without much effort.</p>
-
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-       
-       <a href="https://gufomarin.github.io/tags/static/">static</a>&nbsp;
-        
-       
-       <a href="https://gufomarin.github.io/tags/hugo/">hugo</a>&nbsp;
-         
-    </div>
-    
-
-</article>
-          
         </div>
         
       </div>
@@ -461,7 +287,7 @@ without much effort.</p>
           
           
           <li>
-            <a href="/post/index.xml" title="RSS">
+            <a href="/tags/html/index.xml" title="RSS">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
