@@ -2,6 +2,7 @@
 title: "Read Html inside terminal"
 date: 2024-10-20T11:00:36+03:00
 draft: false
+tags: ["bash", "html"]
 ---
 
 This can be done by using `curl` and `pandoc`.

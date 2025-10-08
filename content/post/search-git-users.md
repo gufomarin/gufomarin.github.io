@@ -2,6 +2,7 @@
 title: "Search Git Users"
 date: 2025-09-16T21:42:46+02:00
 draft: false
+tags: ["bash", "regex"]
 ---
 ## Introduction
 Let's say we want to change our git username to another one. Instead of checking manually if the username is already taken, we can automate this process by writing a script named `fgitusr`. The content of the script looks like this:
