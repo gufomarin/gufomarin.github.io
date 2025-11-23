@@ -6,14 +6,14 @@
     <description>Recent content in Hugo on Mihai Gabriel Marin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>mihaigmarin@gmail.com (Gabriel Marin)</managingEditor>
-    <webMaster>mihaigmarin@gmail.com (Gabriel Marin)</webMaster>
+    <managingEditor>mihaigmarin@gmail.com (Mihai Gabriel Marin)</managingEditor>
+    <webMaster>mihaigmarin@gmail.com (Mihai Gabriel Marin)</webMaster>
     <lastBuildDate>Fri, 05 May 2023 22:57:55 +0300</lastBuildDate>
     <atom:link href="https://mihaigmarin.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First post</title>
       <link>https://mihaigmarin.github.io/post/first-post/</link>
-      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
+      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate><author>mihaigmarin@gmail.com (Mihai Gabriel Marin)</author>
       <guid>https://mihaigmarin.github.io/post/first-post/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Hugo&lt;/strong&gt; is a great minimalistic tool for generating static websites.&#xA;It took me one day to get a hang of it and be able to&#xA;generate and publish my own website.&#xA;Also the fact that there are a lot of themes at your fingertips&#xA;is great, because you can also switch your aspect of your site&#xA;without much effort.&lt;/p&gt;</description>
     </item>
