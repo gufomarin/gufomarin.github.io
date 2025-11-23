@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Gabriel Marin</title>
-    <link>https://mgabrielmarin.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on Gabriel Marin</description>
+    <title>Hugo on Mihai Gabriel Marin</title>
+    <link>https://mihaigmarin.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Mihai Gabriel Marin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>gabrielmarindev@gmail.com (Gabriel Marin)</managingEditor>
-    <webMaster>gabrielmarindev@gmail.com (Gabriel Marin)</webMaster>
+    <managingEditor>mihaigmarin@gmail.com (Gabriel Marin)</managingEditor>
+    <webMaster>mihaigmarin@gmail.com (Gabriel Marin)</webMaster>
     <lastBuildDate>Fri, 05 May 2023 22:57:55 +0300</lastBuildDate>
-    <atom:link href="https://mgabrielmarin.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mihaigmarin.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First post</title>
-      <link>https://mgabrielmarin.github.io/post/first-post/</link>
-      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate><author>gabrielmarindev@gmail.com (Gabriel Marin)</author>
-      <guid>https://mgabrielmarin.github.io/post/first-post/</guid>
+      <link>https://mihaigmarin.github.io/post/first-post/</link>
+      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
+      <guid>https://mihaigmarin.github.io/post/first-post/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Hugo&lt;/strong&gt; is a great minimalistic tool for generating static websites.&#xA;It took me one day to get a hang of it and be able to&#xA;generate and publish my own website.&#xA;Also the fact that there are a lot of themes at your fingertips&#xA;is great, because you can also switch your aspect of your site&#xA;without much effort.&lt;/p&gt;</description>
     </item>
   </channel>
