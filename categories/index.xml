@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Mihai Gabriel Marin</title>
-    <link>https://mihaigmarin.github.io/categories/</link>
-    <description>Recent content in Categories on Mihai Gabriel Marin</description>
+    <title>Categories on Gabriel Marin</title>
+    <link>https://gabmarin.github.io/categories/</link>
+    <description>Recent content in Categories on Gabriel Marin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>mihaigmarin@gmail.com (Mihai Gabriel Marin)</managingEditor>
-    <webMaster>mihaigmarin@gmail.com (Mihai Gabriel Marin)</webMaster>
-    <atom:link href="https://mihaigmarin.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>gabrielmarindev@gmail.com (Gabriel Marin)</managingEditor>
+    <webMaster>gabrielmarindev@gmail.com (Gabriel Marin)</webMaster>
+    <atom:link href="https://gabmarin.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
