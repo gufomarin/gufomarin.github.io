@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Gabriel Marin</title>
-    <link>https://mgabrielmarin.github.io/categories/</link>
+    <link>https://gabrielmarindev.github.io/categories/</link>
     <description>Recent content in Categories on Gabriel Marin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>gabrielmarindev@gmail.com (Gabriel Marin)</managingEditor>
     <webMaster>gabrielmarindev@gmail.com (Gabriel Marin)</webMaster>
-    <atom:link href="https://mgabrielmarin.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gabrielmarindev.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
