@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Gabriel Marin</title>
-    <link>https://mihaigmarin.github.io/tags/</link>
-    <description>Recent content in Tags on Gabriel Marin</description>
+    <title>Tags on M. Gabriel Marin</title>
+    <link>https://mgabrielmarin.github.io/tags/</link>
+    <description>Recent content in Tags on M. Gabriel Marin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>mihaigmarin@gmail.com (Gabriel Marin)</managingEditor>
-    <webMaster>mihaigmarin@gmail.com (Gabriel Marin)</webMaster>
+    <managingEditor>mgabemarin@gmail.com (M. Gabriel Marin)</managingEditor>
+    <webMaster>mgabemarin@gmail.com (M. Gabriel Marin)</webMaster>
     <lastBuildDate>Tue, 16 Sep 2025 21:42:46 +0200</lastBuildDate>
-    <atom:link href="https://mihaigmarin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mgabrielmarin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bash</title>
-      <link>https://mihaigmarin.github.io/tags/bash/</link>
-      <pubDate>Tue, 16 Sep 2025 21:42:46 +0200</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
-      <guid>https://mihaigmarin.github.io/tags/bash/</guid>
+      <link>https://mgabrielmarin.github.io/tags/bash/</link>
+      <pubDate>Tue, 16 Sep 2025 21:42:46 +0200</pubDate><author>mgabemarin@gmail.com (M. Gabriel Marin)</author>
+      <guid>https://mgabrielmarin.github.io/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Regex</title>
-      <link>https://mihaigmarin.github.io/tags/regex/</link>
-      <pubDate>Tue, 16 Sep 2025 21:42:46 +0200</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
-      <guid>https://mihaigmarin.github.io/tags/regex/</guid>
+      <link>https://mgabrielmarin.github.io/tags/regex/</link>
+      <pubDate>Tue, 16 Sep 2025 21:42:46 +0200</pubDate><author>mgabemarin@gmail.com (M. Gabriel Marin)</author>
+      <guid>https://mgabrielmarin.github.io/tags/regex/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>https://mihaigmarin.github.io/tags/html/</link>
-      <pubDate>Sun, 20 Oct 2024 11:00:36 +0300</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
-      <guid>https://mihaigmarin.github.io/tags/html/</guid>
+      <link>https://mgabrielmarin.github.io/tags/html/</link>
+      <pubDate>Sun, 20 Oct 2024 11:00:36 +0300</pubDate><author>mgabemarin@gmail.com (M. Gabriel Marin)</author>
+      <guid>https://mgabrielmarin.github.io/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://mihaigmarin.github.io/tags/hugo/</link>
-      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
-      <guid>https://mihaigmarin.github.io/tags/hugo/</guid>
+      <link>https://mgabrielmarin.github.io/tags/hugo/</link>
+      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate><author>mgabemarin@gmail.com (M. Gabriel Marin)</author>
+      <guid>https://mgabrielmarin.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Static</title>
-      <link>https://mihaigmarin.github.io/tags/static/</link>
-      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate><author>mihaigmarin@gmail.com (Gabriel Marin)</author>
-      <guid>https://mihaigmarin.github.io/tags/static/</guid>
+      <link>https://mgabrielmarin.github.io/tags/static/</link>
+      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate><author>mgabemarin@gmail.com (M. Gabriel Marin)</author>
+      <guid>https://mgabrielmarin.github.io/tags/static/</guid>
       <description></description>
     </item>
   </channel>
