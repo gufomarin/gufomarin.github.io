@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Html on Gabriel Marin</title>
-    <link>https://gbrlmarn.github.io/tags/html/</link>
+    <link>https://maringabi.github.io/tags/html/</link>
     <description>Recent content in Html on Gabriel Marin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>gbrlmarn@gmail.com (Gabriel Marin)</managingEditor>
-    <webMaster>gbrlmarn@gmail.com (Gabriel Marin)</webMaster>
+    <managingEditor>marin_gabriel@outlook.com (Gabriel Marin)</managingEditor>
+    <webMaster>marin_gabriel@outlook.com (Gabriel Marin)</webMaster>
     <lastBuildDate>Sun, 20 Oct 2024 11:00:36 +0300</lastBuildDate>
-    <atom:link href="https://gbrlmarn.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maringabi.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Read Html inside terminal</title>
-      <link>https://gbrlmarn.github.io/post/read-html-inside-terminal/</link>
-      <pubDate>Sun, 20 Oct 2024 11:00:36 +0300</pubDate><author>gbrlmarn@gmail.com (Gabriel Marin)</author>
-      <guid>https://gbrlmarn.github.io/post/read-html-inside-terminal/</guid>
+      <link>https://maringabi.github.io/post/read-html-inside-terminal/</link>
+      <pubDate>Sun, 20 Oct 2024 11:00:36 +0300</pubDate><author>marin_gabriel@outlook.com (Gabriel Marin)</author>
+      <guid>https://maringabi.github.io/post/read-html-inside-terminal/</guid>
       <description>&lt;p&gt;This can be done by using &lt;code&gt;curl&lt;/code&gt; and &lt;code&gt;pandoc&lt;/code&gt;.&#xA;The command looks like this:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl &amp;lt;url&amp;gt; | pandoc -f html -t plain | less&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that you can go up and down with &lt;code&gt;j&lt;/code&gt; and &lt;code&gt;k&lt;/code&gt; keys.&#xA;With this command you can read directly in the terminal.&#xA;If you want to store the information in a text file,&#xA;you could use this command:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl &amp;lt;url&amp;gt; | pandoc -f html -t plain &amp;gt; file.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Where &lt;code&gt;file.txt&lt;/code&gt; is the name of the file where the information&#xA;is stored.&lt;/p&gt;</description>
     </item>
   </channel>
