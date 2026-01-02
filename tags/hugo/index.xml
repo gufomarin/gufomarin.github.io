@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Hugo on Gabriel Marin</title>
-    <link>https://gabrielmmarin.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on Gabriel Marin</description>
-    <generator>Hugo</generator>
+    <title>Hugo on Blog</title>
+    <link>https://mihaigmarin.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <managingEditor>gabrielmihaimarin@gmail.com (Gabriel Marin)</managingEditor>
-    <webMaster>gabrielmihaimarin@gmail.com (Gabriel Marin)</webMaster>
     <lastBuildDate>Fri, 05 May 2023 22:57:55 +0300</lastBuildDate>
-    <atom:link href="https://gabrielmmarin.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mihaigmarin.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First post</title>
-      <link>https://gabrielmmarin.github.io/post/first-post/</link>
-      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate><author>gabrielmihaimarin@gmail.com (Gabriel Marin)</author>
-      <guid>https://gabrielmmarin.github.io/post/first-post/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Hugo&lt;/strong&gt; is a great minimalistic tool for generating static websites.&#xA;It took me one day to get a hang of it and be able to&#xA;generate and publish my own website.&#xA;Also the fact that there are a lot of themes at your fingertips&#xA;is great, because you can also switch your aspect of your site&#xA;without much effort.&lt;/p&gt;</description>
+      <link>https://mihaigmarin.github.io/post/first-post/</link>
+      <pubDate>Fri, 05 May 2023 22:57:55 +0300</pubDate>
+      <guid>https://mihaigmarin.github.io/post/first-post/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Hugo&lt;/strong&gt; is a great minimalistic tool for generating static websites.
+It took me one day to get a hang of it and be able to
+generate and publish my own website.
+Also the fact that there are a lot of themes at your fingertips
+is great, because you can also switch your aspect of your site
+without much effort.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
