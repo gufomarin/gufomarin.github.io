@@ -18,6 +18,10 @@ params:
           url: "https://linkedin.com/in/mihaigmarin"
         - name: "instagram"
           url: "https://instagram.com/mihaigmarin"
+        - name: "tiktok"
+          url: "https://tiktok.com/@mihaigmarin"
+        - name: "x"
+          url: "https://x.com/mihaigmarin"
     rss: true
     favicon: "./static/images/favicon.ico"
     mainSections:
