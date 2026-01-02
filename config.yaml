@@ -11,7 +11,7 @@ params:
         Title: Mihai Gabriel Marin
     socialIcons:
         - name: "email"
-          url: "mihaigmarin@gmail.com"
+          url: "mailto:mihaigmarin@gmail.com"
         - name: "github"
           url: "https://github.com/mihaigmarin"
         - name: "linkedin"
