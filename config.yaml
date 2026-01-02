@@ -1,0 +1,34 @@
+baseURL: "https://mihaigmarin.github.io"
+languageCode: "en-us"
+title: "Blog"
+theme: "PaperMod"
+license: "MIT"
+publishDir: "docs"
+enableEmoji: true
+
+params:
+    homeInfoParams:
+        Title: Mihai Gabriel Marin
+    socialIcons:
+        - name: "email"
+          url: "mihaigmarin@gmail.com"
+        - name: "github"
+          url: "https://github.com/mihaigmarin"
+        - name: "linkedin"
+          url: "https://linkedin.com/in/mihaigmarin"
+        - name: "instagram"
+          url: "https://instagram.com/mihaigmarin"
+    rss: true
+    favicon: "./static/images/favicon.ico"
+    mainSections:
+        - post
+        - posts
+
+menu:
+    main:
+    - name: "Blog"
+      url: ""
+      weight: 1
+    - name: "About"
+      url: "/about"
+      weight: 2
